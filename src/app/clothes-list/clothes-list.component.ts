@@ -16,7 +16,7 @@ export class ClothesListComponent implements OnInit {
     jacket.brand = 'ZARA';
     jacket.size = 'M';
     jacket.price = 90;
-    jacket.image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJ130LxZPjbkYS5oOVaAIsJjve55Weng_EyaJ61CQssgU2aNggNQoe9ALo7BJ6jQ4xOUD78xZj5w&usqp=CAc';
+    jacket.image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuQh7SEmuf6_1o9e-KHkYZtvHORVoOeyRrcaZsMwaaBmIFQXfw0a7ccBp7E5AgOdkVlDSJ-BY&usqp=CAc';
 
     const tShirt: List = new List();
     tShirt.name = 'T-shirt printed';
