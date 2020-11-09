@@ -1,0 +1,36 @@
+
+<div>
+
+  <div>
+    <label>Product name</label>
+    <input [(ngModel)]="list.name" type="text"/>
+  </div>
+
+  <div><label>Product brand</label>
+    <input [(ngModel)]="list.brand" type="text"/>
+  </div>
+  <div>
+    <label>Product size</label>
+    <input [(ngModel)]="list.size" type="text"/>
+  </div>
+
+  <div><label>Product image</label>
+    <input
+      style="display: none"
+      type="file" (change)="list.image"
+      #fileInput>
+    <button (click)="fileInput.click()">Select File</button>
+    <br/>
+    <br/>
+
+  <div>
+    <label>Product price</label>
+    <input [(ngModel)]="list.price" type="number"/>
+  </div>
+
+  <button (click) = "addProduct()">Add product</button>
+
+</div>
+
+<p>.</p>
+

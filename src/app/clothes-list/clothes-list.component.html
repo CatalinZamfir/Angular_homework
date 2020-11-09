@@ -1,0 +1,18 @@
+
+
+
+<ul>
+  <li *ngFor="let lists of list">
+    <div class="art">
+    <h2>{{lists.name}}</h2>
+    <h3>{{lists.brand}}</h3>
+    <img [src]="lists.image" style="width: 120px; height: 140px; margin-left: 10px">
+    <p>Size: {{lists.size}}</p>
+    <h3>Price: {{lists.price}} EUR</h3>
+    <button (click)="buy(lists)" *ngIf="lists.price > 0">BUY</button>
+    <p id="alert" *ngIf="lists.price <=  0">This product is not for sale</p>
+    </div>
+  </li>
+</ul>
+
+

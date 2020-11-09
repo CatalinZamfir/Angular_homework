@@ -1,0 +1,23 @@
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Century Gothic"
+}
+
+.topnav h2:hover {
+  background-color: black;
+  color: white;
+  font-family: "Century Gothic";
+}
+
+
