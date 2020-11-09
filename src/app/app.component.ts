@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import {Router} from '@angular/router';
+import {RouterLink} from '@angular/router';
+import {ClothesListComponent} from './clothes-list/clothes-list.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Clothes-app';
+
 }
+
+

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Clothes-app"
+    }
+  },
+  "defaultProject": "Clothes-app",
+  "cli": {
+    "analytics": "e7751f67-fdeb-4be5-873f-a4431f4629cb"
+  }
 }
